@@ -2,8 +2,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const User = require("./schemas/schema");
-const app = require("./users/index.js");
-const newbooks = require("./book/index.js");
+const app = require("./routs/user.js");
+const newbooks = require("./routs/book.js");
 
 // create instance of express(eneble express)
 const server = express();
